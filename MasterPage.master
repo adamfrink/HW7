@@ -9,28 +9,36 @@
     </asp:ContentPlaceHolder>
     <link rel="stylesheet" type="text/css" href="./StyleSheet.css" />
 
+    <style type="text/css">
+        .auto-style1 {
+            font-family: Magneto;
+        }
+    </style>
+
 </head>
 <body>
     <form id="form1" runat="server">
-    <div id="container">
+    
+       
         <div id="header">
 
-            <h1> Microbrew or Die</h1>
+            <h1 class="auto-style1"> House of Beer </h1>
 
         </div>
-
+       
+         <div id="bckgrnd"
         <div id="main">
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
     </div>
 
-        <div id="footer">
+        <div id="footer" class="auto-style1">
 
             Footer text
         </div>
-       
-    </div>
+       </div>
+   
     </form>
 </body>
 </html>

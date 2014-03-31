@@ -1,8 +1,21 @@
-﻿body {
-}
+﻿#bckgrnd
+ {background-image: url(./pictures/mapII.png);
+ min-height:520px;
+ width: auto;
+ background-size: cover;
+ background-position:center;
+
+ /* 
+     or   background-size: contain;
+ background-position:center;
+     */
+
+
+
+ } 
 
 #countainer {
-    background: blue;
+    background: white;
     padding: 20px;
     margin: 0 auto;
     border: 1px solid black;
@@ -10,24 +23,33 @@
 }
 
 #header {
-    background: blue;
+    background: #303030;
     color: white;
-    padding: 10px;
+    padding: 8px;
     margin: 0 auto;
     border: 1px solid black;
+    text-align: center;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff,
+         0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 
+        0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+
 }
 
 #main {
-    background: white;
+    background: yellow;
     padding: 10px;
     margin: 0 auto: border-left:1px solid black;
     border-right: 1px solid black;
 }
 
 #footer {
-    background: green;
+    background:  #383838;
     color: white;
-    padding: 10px;
+    padding: 5px;
     margin: 0 auto;
     border: 1px solid black;
+    text-align: center;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff,
+         0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 
+        0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
 }
