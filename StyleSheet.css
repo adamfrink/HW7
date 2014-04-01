@@ -38,7 +38,7 @@
 #main {
     background: yellow;
     padding: 10px;
-    margin: 0 auto: border-left:1px solid black;
+    margin: 0 auto; border-left:1px solid black;
     border-right: 1px solid black;
 }
 
@@ -50,6 +50,25 @@
     border: 1px solid black;
     text-align: center;
     text-shadow: 0 0 10px #fff, 0 0 20px #fff,
+         0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 
+        0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+}
+
+.glowbox { background:  #383838;
+           font-family: Magneto;
+           color: white;
+           height: 5px;
+           font-size:x-large;
+           width: 20px;
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff,
+         0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 
+        0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+}
+
+#h2 {background:  #383838;
+           height: 5px;
+           width: 20px;
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff,
          0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 
         0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
 }

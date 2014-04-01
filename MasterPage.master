@@ -22,7 +22,9 @@
        
         <div id="header">
 
-            <h1 class="auto-style1"> House of Beer </h1>
+            <h1 class="auto-style1"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; House of Beer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="timeLabel" runat="server" Font-Size="Large" Text="Label"></asp:Label>
+            </h1>
 
         </div>
        

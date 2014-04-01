@@ -11,8 +11,21 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-Welcome to our website!
+   
+    
+     <div> 
+        
+        
+         <asp:Label ID="Label1" runat="server" CssClass="glowbox" Text="Welcome!" Font-Size="XX-Large"></asp:Label>
+        
+        
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
     http://www.beeradvocate.com
 
+</div>
 </asp:Content>
 
