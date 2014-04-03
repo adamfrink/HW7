@@ -4,10 +4,11 @@
  width: auto;
  background-size: cover;
  background-position:center;
-
+ 
  /* 
      or   background-size: contain;
  background-position:center;
+
      */
 
 
@@ -71,4 +72,30 @@
             text-shadow: 0 0 10px #fff, 0 0 20px #fff,
          0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 
         0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+}
+
+.gviewbkgr {
+    background-color: rgba(255,255,255,.8);
+    padding: 10px;
+    color: black;
+    border-color: white;
+    border: solid 3px;
+    text-align: center;
+}
+
+.dtviewbg {
+    background-color: rgba(250,250,255,.8);
+    padding: 10px;
+    color: black;
+    border-color: white;
+    border: solid 3px;
+}
+
+.altRow {
+    background-color: rgba(161,111,250,.4);
+}
+
+.headstyle {
+    background-color: rgba(161,111,250,.6);
+    text-align: center;
 }
