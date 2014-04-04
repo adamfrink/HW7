@@ -16,15 +16,15 @@
             <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="Name" />
             <asp:BoundField DataField="Type" HeaderText="Type" SortExpression="Type" />
             <asp:BoundField DataField="ABV" HeaderText="ABV" SortExpression="ABV" />
-            <asp:BoundField DataField="BrewertyName" HeaderText="BrewertyName" SortExpression="BrewertyName" />
+            <asp:BoundField DataField="BrewertyName" HeaderText="Brewery Name" SortExpression="BrewertyName" />
             <asp:BoundField DataField="City" HeaderText="City" SortExpression="City" />
             <asp:BoundField DataField="State" HeaderText="State" SortExpression="State" />
             <asp:BoundField DataField="Score" HeaderText="Score" SortExpression="Score" />
             <asp:BoundField DataField="Review" HeaderText="Review" SortExpression="Review" />
             <asp:BoundField DataField="Notes" HeaderText="Notes" SortExpression="Notes" />
-            <asp:BoundField DataField="Id" HeaderText="Id" InsertVisible="False" ReadOnly="True" SortExpression="Id" />
         </Fields>
-        <FieldHeaderStyle CssClass="headstyle" />
+       
+
     </asp:DetailsView>
 </asp:Content>
 
